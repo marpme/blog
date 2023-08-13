@@ -10,7 +10,7 @@ export const get = async () => {
   });
 
   const sortedPosts = posts
-    .filter((p) => p.frontmatter.draft !== true)
+    .filter((p) => !p.frontmatter.draft)
     .sort(
       (a, b) =>
         new Date(b.frontmatter.date).valueOf() -
