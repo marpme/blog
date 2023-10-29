@@ -1,7 +1,7 @@
 ---
 external: false
 draft: false
-title: Hello World 👋🏻
+title: 👋🏻 Hello World
 description: It's a beautiful world out there.
 date: 2023-10-22
 ---
