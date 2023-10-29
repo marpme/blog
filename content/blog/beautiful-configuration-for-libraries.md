@@ -39,7 +39,6 @@ Building a library configuration is a fundamental task in software development. 
 ### Step 1: Obtain the Required Library
 
 Before you start configuring your library, make sure you have the [`unconfig`](https://github.com/antfu/unconfig) library available. You can install it using npm, yarn, or pnpm:
-``
 
 ```bash
 npm install unconfig
