@@ -1,6 +1,6 @@
 ---
-/* 
-  This layout is used in 
+/*
+  This layout is used in
   - pages/index.astro
   - pages/blog.astro
   - pages/projects.astro
@@ -24,6 +24,10 @@ import Footer from "../components/Footer.astro";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="generator" content="Blogster" />
+    <meta
+      name="google-site-verification"
+      content="vGwt-KIQYbHLJAcFvV0EuStv48cmK9BKoW1bRJORYR0"
+    />
     <Favicon />
     <slot name="meta" />
     <GoogleFont />
@@ -31,9 +35,7 @@ import Footer from "../components/Footer.astro";
     <FontAwesome />
   </head>
 
-  <body
-    class="min-h-screen max-w-3xl mx-auto px-6 sm:px-8"
-  >
+  <body class="min-h-screen max-w-3xl mx-auto px-6 sm:px-8">
     <Header />
     <main id="main">
       <slot name="main" />
