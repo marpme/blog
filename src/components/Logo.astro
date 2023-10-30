@@ -1,25 +1,31 @@
 ---
+import HeaderLink from "./HeaderLink.astro";
 ---
 
-<svg
-  width="32"
-  height="32"
-  viewBox="0 0 100 100"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <style>
-    path {
-      stroke-width: 5px;
-      stroke: #f3f3f3;
-    }
-  </style>
-  <g>
-    <path d="M10,10 L90,10 L90,90 L10,90 Z" fill="none"></path>
-    <path d="M20,55 L30,35 L40,55 L50,35 L60,55 L70,35 L80,55" fill="none"
-    ></path>
-    <path d="M20,65 Q30,55 40,65 Q50,75 60,65 Q70,55 80,65" fill="none"></path>
-  </g>
-</svg>
+<div class="logo">
+  <HeaderLink href="/">
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 100 100"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <style>
+        path {
+          stroke-width: 5px;
+          stroke: #f3f3f3;
+        }
+      </style>
+      <g>
+        <path d="M10,10 L90,10 L90,90 L10,90 Z" fill="none"></path>
+        <path d="M20,55 L30,35 L40,55 L50,35 L60,55 L70,35 L80,55" fill="none"
+        ></path>
+        <path d="M20,65 Q30,55 40,65 Q50,75 60,65 Q70,55 80,65" fill="none"
+        ></path>
+      </g>
+    </svg>
+  </HeaderLink>
+</div>
 <style>
   @keyframes grow {
     0% {
@@ -49,16 +55,23 @@
     }
   }
 
+  .logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-inline-end: 1rem;
+  }
+
   html .logo path {
+    stroke: #303030;
+  }
+
+  html.light .logo path {
     stroke: #303030;
   }
 
   html.dark .logo path {
     stroke: #f3f3f3;
-  }
-
-  html.light .logo path {
-    stroke: #303030;
   }
 
   svg path {
