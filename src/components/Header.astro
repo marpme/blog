@@ -4,12 +4,9 @@ import DarkModeToggle from "./DarkModeToggle.astro";
 ---
 
 <header>
-  <a
-    class="unset absolute z-10 left-[50%] -top-[100rem] translate-x-[-50%] bg-white text-black px-8 py-2 focus:top-[initial]"
-    href="#main"
-  >
-    Skip to content
-  </a>
+  <div class="logo">
+    <img alt="marpme's logo" src="/logo.svg" width="32px" />
+  </div>
   <nav>
     <section class="text-text-bold">
       <ul class="unset flex gap-4 [&>li]:p-0">
@@ -50,9 +47,15 @@ import DarkModeToggle from "./DarkModeToggle.astro";
     grid-area: header;
     display: grid;
     align-items: center;
-    grid-template-columns: minmax(0, 1fr) minmax(0, max-content) minmax(
-        0,
-        max-content
-      );
+    grid-template-columns:
+      minmax(0, max-content) minmax(0, 1fr)
+      minmax(0, max-content) minmax(0, max-content);
+  }
+
+  .logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-inline-end: 2rem;
   }
 </style>
