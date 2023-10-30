@@ -140,8 +140,13 @@ Once you've completed these steps, your library will be able to consume the conf
 }
 ```
 
+## Conclusion
+
 This parsed configuration will empower your library to work seamlessly and adapt to different scenarios. By following these steps, you've created a user-friendly and adaptable library configuration, setting the stage for a smooth development experience.
 Your configurations are the blueprints that empower your software to adapt, scale, and evolve. They are the silent heroes behind every successful project. So, invest your time and care in creating them thoughtfully, and you'll reap the benefits in the form of smoother development, happier users, and a more robust software ecosystem.
 
 Happy coding, and may your configuration files always be a source of inspiration rather than frustration! 🚀🔧
+
+## References
+
 Big thank you for everybody working at [vite](https://github.com/vitejs/vite), [vitest](https://github.com/vitest-dev/vitest) and special thanks to [antfu](https://github.com/antfu) for creating the library!
