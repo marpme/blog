@@ -5,11 +5,14 @@ import Logo from "./Logo.astro";
 ---
 
 <header>
-  <Logo />
+  <div class="logo">
+    <HeaderLink href="/">
+      <Logo />
+    </HeaderLink>
+  </div>
   <nav>
     <section class="text-text-bold">
       <ul class="unset flex gap-4 [&>li]:p-0">
-        <li><HeaderLink href="/">Home</HeaderLink></li>
         <li><HeaderLink href="/blog">Blog</HeaderLink></li>
         <li><HeaderLink href="/projects">Projects</HeaderLink></li>
       </ul>
@@ -55,52 +58,7 @@ import Logo from "./Logo.astro";
       display: flex;
       align-content: center;
       justify-content: center;
-      margin-inline-end: 2rem;
-    }
-
-    @keyframes grow {
-      0% {
-        stroke-width: 1px;
-        stroke-dashoffset: 1px;
-        stroke-dasharray: 0 150px;
-        opacity: 0;
-      }
-
-      20% {
-        opacity: 1;
-        stroke-width: 5px;
-      }
-
-      40% {
-        stroke-dasharray: 150px 0;
-      }
-
-      /* Moving back */
-      85% {
-        stroke-dasharray: 150px 0;
-      }
-
-      95%,
-      to {
-        stroke-dasharray: 0 150px;
-      }
-    }
-
-    html.dark .logo path {
-      stroke: #f3f3f3;
-    }
-
-    html.light .logo path {
-      stroke: #303030;
-    }
-
-    svg path {
-      stroke-width: 5px;
-      stroke-dashoffset: 1px;
-      stroke-dasharray: 150px 0;
-      animation: grow 10s ease forwards infinite;
-      transform-origin: center;
-      animation-delay: 0s;
+      margin-inline-end: 1rem;
     }
   </style>
 </header>
