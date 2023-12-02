@@ -865,9 +865,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markdoc/markdoc@npm:^0.3.0":
-  version: 0.3.5
-  resolution: "@markdoc/markdoc@npm:0.3.5"
+"@markdoc/markdoc@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@markdoc/markdoc@npm:0.4.0"
   dependencies:
     "@types/markdown-it": "npm:12.2.3"
   peerDependencies:
@@ -881,7 +881,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 8/620232293342afbba0cd9f49422478a58da73d2ac2a48911e00519c3cd33b66727a1d1dc8ab6fd88c25fc80d25484bb669c90f2ad93c46f2b2f3014f9ef5e0db
+  checksum: e9a1a3c0b8821a134cd5eb2ce60f5e25bcc67eb0cd74e45b3a6c5e3e546d22d6ee04e0d127d95f5885f0ae3f7631935aa1bc1871e248ad309a147cf7dad6259f
   languageName: node
   linkType: hard
 
@@ -1461,7 +1461,7 @@ __metadata:
     "@astrojs/rss": "npm:^3.0.0"
     "@astrojs/sitemap": "npm:^3.0.0"
     "@astrojs/tailwind": "npm:^5.0.0"
-    "@markdoc/markdoc": "npm:^0.3.0"
+    "@markdoc/markdoc": "npm:^0.4.0"
     "@tailwindcss/typography": "npm:^0.5.9"
     astro: "npm:^3.0.0"
     astro-markdoc-renderer: "npm:0.0.1-alpha.1"
