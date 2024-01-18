@@ -87,12 +87,12 @@ __metadata:
   linkType: hard
 
 "@astrojs/sitemap@npm:^3.0.0":
-  version: 3.0.4
-  resolution: "@astrojs/sitemap@npm:3.0.4"
+  version: 3.0.5
+  resolution: "@astrojs/sitemap@npm:3.0.5"
   dependencies:
     sitemap: "npm:^7.1.1"
     zod: "npm:^3.22.4"
-  checksum: 7e09494b61ede8ff1eb57758e1046a470a64bbd20e286c855fa72fa94c74bfc7776556646f495a69355f7cdc7124dbeb0f3a78121fe22bae9f056a4aad0b859a
+  checksum: fb87b271a0fd62ffbc721dc9c79d98d94eab22763e8b770031a864f13ee252392f8a9312383351e4803c3cf815be270950dc9bf6c0f3f5d2b62e27826e72666d
   languageName: node
   linkType: hard
 
