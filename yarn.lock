@@ -75,12 +75,12 @@ __metadata:
   linkType: hard
 
 "@astrojs/rss@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@astrojs/rss@npm:4.0.0"
+  version: 4.0.5
+  resolution: "@astrojs/rss@npm:4.0.5"
   dependencies:
     fast-xml-parser: "npm:^4.2.7"
     kleur: "npm:^4.1.5"
-  checksum: d66860cd88a31203eb9504a1b568c1c230596eb8cf813498c070204b93e7393684faca7987332a025d16fd99eefdcc5db28f5a475dfe7bb671911817d60d7439
+  checksum: 10/a1fd87e3b352e5d89e26f84441560c77f0378ba915facf622ea997dc0e1d0024acb8ed3a933119c14fb6becb13628de069710af04358945854ae4bdff4fbeb21
   languageName: node
   linkType: hard
 
