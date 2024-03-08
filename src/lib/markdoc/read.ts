@@ -2,7 +2,7 @@ import type { z } from "zod";
 import path from "path";
 import matter from "gray-matter";
 import fs from "fs/promises";
-import { globby } from "globby";
+import { glob } from "glob";
 import Markdoc from "@markdoc/markdoc";
 import { config } from "./markdoc.config";
 
@@ -96,7 +96,7 @@ export async function readAll<T extends z.ZodTypeAny>({
   frontmatterSchema: T;
 }) {
   const pathToDir = path.posix.join(contentDirectory, directory);
-  const paths = await globby(`${pathToDir}/*.md`);
+  const paths = await glob(`${pathToDir}/*.md`);
 
   return Promise.all(paths.map((path) => read({ filepath: path, schema })));
 }
