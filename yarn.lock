@@ -29,10 +29,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "@astrojs/compiler@npm:2.7.0"
-  checksum: 10/d5dfc651f44afdd9c01317b7a245123642cbfc51aa985b0c59a52e54e07c69fb4ad165999bfcceafd5c9828ddd2bb0b71b216f39a692f5eac48ced75ee91e697
+"@astrojs/compiler@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "@astrojs/compiler@npm:2.7.1"
+  checksum: 10/7537fee5c67415bf7a3863ef08f3ddeab2940583f3ddd63d7d1aa77182536da915229db2989b74885f90705ee980ee18fd8b1d670b30cb7620e4ab5e9631e7e0
   languageName: node
   linkType: hard
 
@@ -43,9 +43,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.3.2":
-  version: 4.3.2
-  resolution: "@astrojs/markdown-remark@npm:4.3.2"
+"@astrojs/markdown-remark@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@astrojs/markdown-remark@npm:5.0.0"
   dependencies:
     "@astrojs/prism": "npm:^3.0.0"
     github-slugger: "npm:^2.0.0"
@@ -65,7 +65,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unist-util-visit-parents: "npm:^6.0.0"
     vfile: "npm:^6.0.1"
-  checksum: 10/4e4d65171979f18434e06421f2b62388054efa7c1a732f41b1de141b8978f109c01df436255118aa0d7a808d59171a811b2790cf8f54848509d8d3ad8de657e2
+  checksum: 10/3c04bb9a8746311fe4c3e5c763858c16eb6fa95d5e33d213ab24d21df496eeee03f7ae7fabbfb972d920c877408011023f9939aa26dd1b9dccf60c2b677cb530
   languageName: node
   linkType: hard
 
@@ -1357,12 +1357,12 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.5.12
-  resolution: "astro@npm:4.5.12"
+  version: 4.5.13
+  resolution: "astro@npm:4.5.13"
   dependencies:
-    "@astrojs/compiler": "npm:^2.7.0"
+    "@astrojs/compiler": "npm:^2.7.1"
     "@astrojs/internal-helpers": "npm:0.4.0"
-    "@astrojs/markdown-remark": "npm:4.3.2"
+    "@astrojs/markdown-remark": "npm:5.0.0"
     "@astrojs/telemetry": "npm:3.0.4"
     "@babel/core": "npm:^7.24.3"
     "@babel/generator": "npm:^7.23.3"
@@ -1428,7 +1428,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/e62f975dd4730f87ef5da6b3d45f32f2027e3a89ec5bcfb5313fcc4cddba51842aabc77bb40f4c7a40adb1db793cd957c499fca66877991a4a7199e16be5df21
+  checksum: 10/2ddfe7d3311ff96153b8ec4b600a30ae32b862ca7dc76382807b5440d446d01efdafe614c14d6741f022621bb71058adb057bf21f0cb475c42aa96676d092313
   languageName: node
   linkType: hard
 
