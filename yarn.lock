@@ -43,11 +43,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@astrojs/markdown-remark@npm:5.0.0"
+"@astrojs/markdown-remark@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@astrojs/markdown-remark@npm:5.1.0"
   dependencies:
-    "@astrojs/prism": "npm:^3.0.0"
+    "@astrojs/prism": "npm:^3.1.0"
     github-slugger: "npm:^2.0.0"
     hast-util-from-html: "npm:^2.0.0"
     hast-util-to-text: "npm:^4.0.0"
@@ -65,7 +65,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unist-util-visit-parents: "npm:^6.0.0"
     vfile: "npm:^6.0.1"
-  checksum: 10/3c04bb9a8746311fe4c3e5c763858c16eb6fa95d5e33d213ab24d21df496eeee03f7ae7fabbfb972d920c877408011023f9939aa26dd1b9dccf60c2b677cb530
+  checksum: 10/1b110c37a9ab1c90ff404d05d60fa22b6882f34464dfcb25f18107daf410c67bea5d125195b79a424a5acdd53c4f6ace7130cebf8c9e45dd0476ea25fd9e99af
   languageName: node
   linkType: hard
 
@@ -75,6 +75,15 @@ __metadata:
   dependencies:
     prismjs: "npm:^1.29.0"
   checksum: 10/8666e698b4fba7316f9e4adb2e17a5ab99c81024a7a979dc41989ae46c20a7cdd0b43344765b7d2651f8fc584897c6aead5e2e720c6344b3159f4691ccac072c
+  languageName: node
+  linkType: hard
+
+"@astrojs/prism@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@astrojs/prism@npm:3.1.0"
+  dependencies:
+    prismjs: "npm:^1.29.0"
+  checksum: 10/8673e4912f0b977fe2d772aafa9e1076c63cf9b68c7fed14ed2c43021279b7dfb7f96b5cb8d4bc4ae2f35b821af95e2f72e7f94c9c90203180782c29fd70a058
   languageName: node
   linkType: hard
 
@@ -112,18 +121,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@astrojs/telemetry@npm:3.0.4"
+"@astrojs/telemetry@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@astrojs/telemetry@npm:3.1.0"
   dependencies:
-    ci-info: "npm:^3.8.0"
+    ci-info: "npm:^4.0.0"
     debug: "npm:^4.3.4"
     dlv: "npm:^1.1.3"
-    dset: "npm:^3.1.2"
+    dset: "npm:^3.1.3"
     is-docker: "npm:^3.0.0"
     is-wsl: "npm:^3.0.0"
     which-pm-runs: "npm:^1.1.0"
-  checksum: 10/cb0ed551e9a3a523d1a3e91225e77c1c95ca2773bb5ba24a97d74b76321a51e4ffdcb32e6ba24e49e7651a774b7e94b1a5a9f89b9828e5ee6ae167464b5cfccd
+  checksum: 10/8c571c53154d111ba865a4f870796baca07b42afe2e5390713c6bd2b63ed06d32d6008f1d3070fc15a1b1ebfcc33ae309a1da1ddf5854aa7c55d042e9de660f0
   languageName: node
   linkType: hard
 
@@ -1357,13 +1366,13 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.5.18
-  resolution: "astro@npm:4.5.18"
+  version: 4.6.0
+  resolution: "astro@npm:4.6.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.7.1"
     "@astrojs/internal-helpers": "npm:0.4.0"
-    "@astrojs/markdown-remark": "npm:5.0.0"
-    "@astrojs/telemetry": "npm:3.0.4"
+    "@astrojs/markdown-remark": "npm:5.1.0"
+    "@astrojs/telemetry": "npm:3.1.0"
     "@babel/core": "npm:^7.24.3"
     "@babel/generator": "npm:^7.23.3"
     "@babel/parser": "npm:^7.23.3"
@@ -1428,7 +1437,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/2fb729694c4824cff75ba67bf02adca0135e447ee7d81f86d7b486a63ecd247eb0398ec583dc174564a51fc3318fbb0b80f3fd1bb129ffce6c3aa53e2fb4fdf8
+  checksum: 10/36cec546525882dda2958ae8b9220dfa5a0f127504819df021d8b060ecc82831b94bab6d578af090802b1da2218826be902e61ebd4656d66666ae56cf72a4b9e
   languageName: node
   linkType: hard
 
@@ -1765,13 +1774,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.8.0":
-  version: 3.9.0
-  resolution: "ci-info@npm:3.9.0"
-  checksum: 10/75bc67902b4d1c7b435497adeb91598f6d52a3389398e44294f6601b20cfef32cf2176f7be0eb961d9e085bb333a8a5cae121cb22f81cf238ae7f58eb80e9397
-  languageName: node
-  linkType: hard
-
 "ci-info@npm:^4.0.0":
   version: 4.0.0
   resolution: "ci-info@npm:4.0.0"
@@ -2047,13 +2049,6 @@ __metadata:
   version: 1.1.3
   resolution: "dlv@npm:1.1.3"
   checksum: 10/836459ec6b50e43e9ed388a5fc28954be99e3481af3fa4b5d82a600762eb65ef8faacd454097ed7fc2f8a60aea2800d65a4cece5cd0d81ab82b2031f3f759e6e
-  languageName: node
-  linkType: hard
-
-"dset@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "dset@npm:3.1.2"
-  checksum: 10/8af5554965b7e48c3c7e6b62f7a3d6c054efe643f56f0e19b11bbc2c677641af25cf89cee53ae8905b94dca4805620e9b4c966d3c6d51269157a71fedce5559a
   languageName: node
   linkType: hard
 
