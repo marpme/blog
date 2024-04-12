@@ -69,16 +69,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/prism@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@astrojs/prism@npm:3.1.0"
-  dependencies:
-    prismjs: "npm:^1.29.0"
-  checksum: 10/8673e4912f0b977fe2d772aafa9e1076c63cf9b68c7fed14ed2c43021279b7dfb7f96b5cb8d4bc4ae2f35b821af95e2f72e7f94c9c90203180782c29fd70a058
-  languageName: node
-  linkType: hard
-
-"@astrojs/prism@npm:^3.1.0":
+"@astrojs/prism@npm:^3.0.0, @astrojs/prism@npm:^3.1.0":
   version: 3.1.0
   resolution: "@astrojs/prism@npm:3.1.0"
   dependencies:
@@ -1366,8 +1357,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.6.0
-  resolution: "astro@npm:4.6.0"
+  version: 4.6.1
+  resolution: "astro@npm:4.6.1"
   dependencies:
     "@astrojs/compiler": "npm:^2.7.1"
     "@astrojs/internal-helpers": "npm:0.4.0"
@@ -1437,7 +1428,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/36cec546525882dda2958ae8b9220dfa5a0f127504819df021d8b060ecc82831b94bab6d578af090802b1da2218826be902e61ebd4656d66666ae56cf72a4b9e
+  checksum: 10/db59a5f3f002df80c9084764c05455db69578ccc18993914b09bc3829355ac81c462edd4bd1ae98fb152c555d2cf22fc0f50aaae58e588291d4131e7c356ff1c
   languageName: node
   linkType: hard
 
