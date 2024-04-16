@@ -1056,6 +1056,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cookie@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@types/cookie@npm:0.5.4"
+  checksum: 10/44c09d55b79ccc7701876dae868a4a6a9e1291228792b81983e94ab55482eaa853dfc23dede0165d135817dca2845e48bf280f9b1f8d3401f012d410091513c0
+  languageName: node
+  linkType: hard
+
 "@types/debug@npm:^4.0.0":
   version: 4.1.8
   resolution: "@types/debug@npm:4.1.8"
@@ -1357,8 +1364,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.6.1
-  resolution: "astro@npm:4.6.1"
+  version: 4.6.2
+  resolution: "astro@npm:4.6.2"
   dependencies:
     "@astrojs/compiler": "npm:^2.7.1"
     "@astrojs/internal-helpers": "npm:0.4.0"
@@ -1371,6 +1378,7 @@ __metadata:
     "@babel/traverse": "npm:^7.23.3"
     "@babel/types": "npm:^7.23.3"
     "@types/babel__core": "npm:^7.20.4"
+    "@types/cookie": "npm:^0.5.4"
     acorn: "npm:^8.11.2"
     aria-query: "npm:^5.3.0"
     axobject-query: "npm:^4.0.0"
@@ -1428,7 +1436,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/db59a5f3f002df80c9084764c05455db69578ccc18993914b09bc3829355ac81c462edd4bd1ae98fb152c555d2cf22fc0f50aaae58e588291d4131e7c356ff1c
+  checksum: 10/ee7a16dcab288c533566e5f3ac74e3982a5de3d95f318313893b353e25580d9130c03eec420984e1876be09a4cac3b89c48f4c98d9086a9dc4a1b435c65f358a
   languageName: node
   linkType: hard
 
