@@ -1779,7 +1779,7 @@ __metadata:
     glob: "npm:^11.0.0"
     globby: "npm:^14.0.1"
     gray-matter: "npm:^4.0.3"
-    prettier-plugin-astro: "npm:^0.13.0"
+    prettier-plugin-astro: "npm:^0.14.0"
     slugify: "npm:^1.6.5"
     tailwindcss: "npm:^3.2.4"
     typescript: "npm:^5.0.0"
@@ -4795,14 +4795,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "prettier-plugin-astro@npm:0.13.0"
+"prettier-plugin-astro@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "prettier-plugin-astro@npm:0.14.0"
   dependencies:
     "@astrojs/compiler": "npm:^1.5.5"
     prettier: "npm:^3.0.0"
     sass-formatter: "npm:^0.7.6"
-  checksum: 10/ed86b9ea90320530493742ca2d7ad141a52abea0d263e2871bb0d440772f7e61100502ead88b9366833c2ee35fb199a1d133ea76721497e22555ee9d917150be
+  checksum: 10/cd3389fec346d8d6cd6c8fbe403c365e8e6d65d28dc4517c6424759d5fc1d4aa315342a6be9bf582fb74e32248977bb5b14bde013068b3013b5f23faf6babdfb
   languageName: node
   linkType: hard
 
