@@ -22,14 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^1.5.5":
-  version: 1.8.2
-  resolution: "@astrojs/compiler@npm:1.8.2"
-  checksum: 10/1c24274b1045c33893f570b9a2f66ee96e1ac4e976cf5f996146d63086f052d34b5b7456c274f80ef69541ca2d9beef07afe9f0df239c1ed939bade6334e2baa
-  languageName: node
-  linkType: hard
-
-"@astrojs/compiler@npm:^2.10.3":
+"@astrojs/compiler@npm:^2.10.3, @astrojs/compiler@npm:^2.9.1":
   version: 2.10.3
   resolution: "@astrojs/compiler@npm:2.10.3"
   checksum: 10/25694664996def784453e73f507c7751e9dec57eaf882b11398d642d622393724c50d4aea01beae1562bdef16e990bca4c2cee6457b0c73572724989accf9b33
@@ -1822,16 +1815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.2, braces@npm:~3.0.2":
-  version: 3.0.3
-  resolution: "braces@npm:3.0.3"
-  dependencies:
-    fill-range: "npm:^7.1.1"
-  checksum: 10/fad11a0d4697a27162840b02b1fad249c1683cbc510cd5bf1a471f2f8085c046d41094308c577a50a03a579dd99d5a6b3724c4b5e8b14df2c4443844cfcda2c6
-  languageName: node
-  linkType: hard
-
-"braces@npm:^3.0.3":
+"braces@npm:^3.0.2, braces@npm:^3.0.3, braces@npm:~3.0.2":
   version: 3.0.3
   resolution: "braces@npm:3.0.3"
   dependencies:
@@ -2571,15 +2555,6 @@ __metadata:
   dependencies:
     reusify: "npm:^1.0.4"
   checksum: 10/67c01b1c972e2d5b6fea197a1a39d5d582982aea69ff4c504badac71080d8396d4843b165a9686e907c233048f15a86bbccb0e7f83ba771f6fa24bcde059d0c3
-  languageName: node
-  linkType: hard
-
-"fill-range@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "fill-range@npm:7.1.1"
-  dependencies:
-    to-regex-range: "npm:^5.0.1"
-  checksum: 10/a7095cb39e5bc32fada2aa7c7249d3f6b01bd1ce461a61b0adabacccabd9198500c6fb1f68a7c851a657e273fce2233ba869638897f3d7ed2e87a2d89b4436ea
   languageName: node
   linkType: hard
 
@@ -4796,13 +4771,13 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-astro@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "prettier-plugin-astro@npm:0.14.0"
+  version: 0.14.1
+  resolution: "prettier-plugin-astro@npm:0.14.1"
   dependencies:
-    "@astrojs/compiler": "npm:^1.5.5"
+    "@astrojs/compiler": "npm:^2.9.1"
     prettier: "npm:^3.0.0"
     sass-formatter: "npm:^0.7.6"
-  checksum: 10/cd3389fec346d8d6cd6c8fbe403c365e8e6d65d28dc4517c6424759d5fc1d4aa315342a6be9bf582fb74e32248977bb5b14bde013068b3013b5f23faf6babdfb
+  checksum: 10/b814fab0303fec49a64889019dfefa44e0ed44f3da746994ba746478d3aa40e7c1b418e4493fa87501c453badf16c17ae1bfe6139e13e80c55aa90fe4354ae04
   languageName: node
   linkType: hard
 
