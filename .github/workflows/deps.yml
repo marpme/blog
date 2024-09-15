@@ -8,7 +8,7 @@ permissions:
 jobs:
   upgrade:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'renovate[bot]' && contains(github.event.pull_request.body, format('**Automerge**{0} Enabled.', ':')) }}
+    if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'renovate[bot]' && contains(github.event.pull_request.body, format('**Automerge**{0} Enabled.', ':'))) }}
     steps:
       - name: Approve a PR
         run: gh pr review --approve "$PR_URL"
