@@ -1044,10 +1044,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oslojs/encoding@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@oslojs/encoding@npm:0.4.1"
-  checksum: 10/7cba443edb4ed217bd584313e272ddadfb350963611b90b5ae6fa5358b7ce47cd59921f8bc15d859347db5a953210bdf746b8ff3829ac74dd8cfcb8bbdbe308d
+"@oslojs/encoding@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@oslojs/encoding@npm:1.0.0"
+  checksum: 10/f133c2fa901c0386f618be3fcd2a71d400a432a668fa48e0c884c71ff800c44919dc010ec4e6f4a4ac763d4424e50970a9e68539ebd8dd82fdb4801381c7d606
   languageName: node
   linkType: hard
 
@@ -1625,8 +1625,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.15.8
-  resolution: "astro@npm:4.15.8"
+  version: 4.15.9
+  resolution: "astro@npm:4.15.9"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.3"
     "@astrojs/internal-helpers": "npm:0.4.1"
@@ -1635,7 +1635,7 @@ __metadata:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-react-jsx": "npm:^7.25.2"
     "@babel/types": "npm:^7.25.6"
-    "@oslojs/encoding": "npm:^0.4.1"
+    "@oslojs/encoding": "npm:^1.0.0"
     "@rollup/pluginutils": "npm:^5.1.0"
     "@types/babel__core": "npm:^7.20.5"
     "@types/cookie": "npm:^0.6.0"
@@ -1699,7 +1699,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/eaacdd3416b89c29af39c4069b2a8cc8c4f174d5aa37039bf99120c502c452693af1e360b90ec42f9d4c98799e4b6a9da2ccee8b497dae0be10a93144a2af2b2
+  checksum: 10/07dd49050aa2e8ddea701a69ffb96fb631c6e43dd863f1cef2933b22320b848e2c8907e0e5b87cc048c80cb8fa1169d2c442e4c0f470409375f55c578af05e70
   languageName: node
   linkType: hard
 
