@@ -82,13 +82,13 @@ __metadata:
   linkType: hard
 
 "@astrojs/sitemap@npm:^3.0.0":
-  version: 3.1.6
-  resolution: "@astrojs/sitemap@npm:3.1.6"
+  version: 3.2.0
+  resolution: "@astrojs/sitemap@npm:3.2.0"
   dependencies:
-    sitemap: "npm:^7.1.2"
+    sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.23.8"
-  checksum: 10/9160db939c12a81e95b9b941cd51bfe5d7f35ab38d0560d40172f82c5d9d3138ce4ebc3620476a16547e576ee7f6410f44df721cefc22a3e2cd1b8284aeb43f2
+  checksum: 10/3d92678b4a67fe8362765279bc4649501178047502007caf75ba0d9bbd4466cd3b2d8390e7b544236e445901ae8dcda8d2e3c0aee05aadeb7a9aaa1c3cb9aa10
   languageName: node
   linkType: hard
 
@@ -1624,8 +1624,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.15.10
-  resolution: "astro@npm:4.15.10"
+  version: 4.15.11
+  resolution: "astro@npm:4.15.11"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.3"
     "@astrojs/internal-helpers": "npm:0.4.1"
@@ -1698,7 +1698,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/75808f3b06e9998a260e19339780993ec54833a00f8f11451001ca553e50718cadd36a32b69c758f1d9c0842b9569c617bb9c32cbaea1dbdcc142bbd9f0a0f38
+  checksum: 10/6b611d479236c4e6683196c7d6687db66ae0117c7ab8463646a780afe586f6dfb112d10396d1bf0e48488f0bfd7eea022c452dc5062965ebb9c8e9a414c17f86
   languageName: node
   linkType: hard
 
@@ -5377,9 +5377,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sitemap@npm:^7.1.2":
-  version: 7.1.2
-  resolution: "sitemap@npm:7.1.2"
+"sitemap@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "sitemap@npm:8.0.0"
   dependencies:
     "@types/node": "npm:^17.0.5"
     "@types/sax": "npm:^1.2.1"
@@ -5387,7 +5387,7 @@ __metadata:
     sax: "npm:^1.2.4"
   bin:
     sitemap: dist/cli.js
-  checksum: 10/f4edeaaa49511b034b73cc1b1e7b218d1faee8ca05398f30810b8f4662fcff2a20670a9b81470a9445fcdfb40abb602f962c61fdfeaca0fcce9aa99215b0ddc6
+  checksum: 10/8af7ddbf3753f467ec01507cc19710a8846effbbb17c506e6c09aed8c8f445fa9ad7a8bdcb7654183fc755940470a4a194c2c117ad5b9f522d12ca62a8f4d173
   languageName: node
   linkType: hard
 
