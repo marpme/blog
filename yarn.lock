@@ -81,12 +81,12 @@ __metadata:
   linkType: hard
 
 "@astrojs/rss@npm:^4.0.0":
-  version: 4.0.9
-  resolution: "@astrojs/rss@npm:4.0.9"
+  version: 4.0.10
+  resolution: "@astrojs/rss@npm:4.0.10"
   dependencies:
     fast-xml-parser: "npm:^4.5.0"
     kleur: "npm:^4.1.5"
-  checksum: 10/6570492ed63d1a9df2ef4dcff5e5f60ceed24ac806d918f7a7b979bd9799c5354218bc2ab4968f234c2fab70f632503abaec5bb3ac6f482b6d6618b34cd5b2bc
+  checksum: 10/28561627b0b806b55cc7c7fef75499625d65a84fff3b87f787a33c1b1cedcb952de77b6435fb80089a6d6ff35397b112d0961beaedd70a5aff15f30b4c39ec56
   languageName: node
   linkType: hard
 
@@ -1529,8 +1529,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^4.0.0":
-  version: 4.16.16
-  resolution: "astro@npm:4.16.16"
+  version: 4.16.17
+  resolution: "astro@npm:4.16.17"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.3"
     "@astrojs/internal-helpers": "npm:0.4.1"
@@ -1600,7 +1600,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/b617f589b3fe97081d0b439da5318ec86fe08413506f084a7b7a490007763f6685f7fca53121c0fbd09936316b9fef5e37ff966515d5df4d7e784ce3240edc10
+  checksum: 10/dfeda7385bd551edfd6e43b8ae580113333d858aef1f05616e0d3413a635fa9040437ecb0a8cf2fe353900ef503309535c3e3f38e35e88bcd2667e0100d74b58
   languageName: node
   linkType: hard
 
