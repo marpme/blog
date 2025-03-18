@@ -91,13 +91,13 @@ __metadata:
   linkType: hard
 
 "@astrojs/sitemap@npm:^3.0.0":
-  version: 3.2.1
-  resolution: "@astrojs/sitemap@npm:3.2.1"
+  version: 3.3.0
+  resolution: "@astrojs/sitemap@npm:3.3.0"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
-    zod: "npm:^3.23.8"
-  checksum: 10/117fa0e26005520b8c6d0715ab8f55271b4c4d03c9e8ba8e739415f0d079d772777e1702e408fcbf72ea3b6e289dee8ced490397fce76dfe5726e986a47d630b
+    zod: "npm:^3.24.2"
+  checksum: 10/8dad6fb6260e2f3f066b8a8fba83eda12a921f724baf01171f4b4799c7e9378dfb2ba3e86e8710ba84010d917bd61b0a9e4541bf761954404330dae1c447bb46
   languageName: node
   linkType: hard
 
@@ -6108,7 +6108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.22.3, zod@npm:^3.23.8":
+"zod@npm:^3.22.3, zod@npm:^3.23.8, zod@npm:^3.24.2":
   version: 3.24.2
   resolution: "zod@npm:3.24.2"
   checksum: 10/604c62a8cf8e330d78b106a557f4b44f5d14845d20b1360a423ccc09b58cb8525ccf7e4b40cf1bd4852d22393d2c67774b5817ec5a2fedab25f543b36ed15943
