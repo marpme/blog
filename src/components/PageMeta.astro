@@ -1,5 +1,6 @@
 ---
 import { getPageMeta } from "../lib/seo";
+import Rybbit from "../layouts/Rybbit.astro";
 import {
   SITE_TITLE,
   SITE_DESCRIPTION,
@@ -63,3 +64,5 @@ const { meta, og, twitter } = getPageMeta({
   )
 }
 <!-- {twitter.url && <meta property="twitter:url" content={twitter.url} />} -->
+
+<Rybbit />
