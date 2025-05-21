@@ -6141,9 +6141,9 @@ __metadata:
   linkType: hard
 
 "zod@npm:^3.22.3, zod@npm:^3.23.8, zod@npm:^3.24.2":
-  version: 3.25.12
-  resolution: "zod@npm:3.25.12"
-  checksum: 10/a537bc1fcf88ed633a5ed0484f9af2acb791bd872a0dfe83d8048e9aaf68a01b9533843d1b2fb24d4093b528248c62a3aa6acd36358dc7ca0c8477848c7391ce
+  version: 3.25.13
+  resolution: "zod@npm:3.25.13"
+  checksum: 10/922a74cca46339aadb17dbd2288ecfb5222b630fc973d8b6152416f2dacd6e0d5f02992f7639368586bb7f44711b1f2e62da7f8c15c1af0cd9a659605d279d14
   languageName: node
   linkType: hard
 
