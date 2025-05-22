@@ -72,11 +72,11 @@ __metadata:
   linkType: hard
 
 "@astrojs/prism@npm:^3.0.0":
-  version: 3.2.0
-  resolution: "@astrojs/prism@npm:3.2.0"
+  version: 3.3.0
+  resolution: "@astrojs/prism@npm:3.3.0"
   dependencies:
-    prismjs: "npm:^1.29.0"
-  checksum: 10/0a4ee8514c24bde65fc4d1eaab718014176a07834ced4911598405092d52d2af779e34ee0e3f45bb823d9e1e66e2639b67ec59275ab5ce78fc19d4f58338d3b7
+    prismjs: "npm:^1.30.0"
+  checksum: 10/419ff6ced32527444b4840c49f31f9f4d5d43cdea63839f0d8f4f1f1b9b74a62f072d91740bbdaaf920e11d1b8e230244ab9a72562bfb80ee5f2064ea7db79d4
   languageName: node
   linkType: hard
 
@@ -4671,7 +4671,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prismjs@npm:^1.29.0":
+"prismjs@npm:^1.29.0, prismjs@npm:^1.30.0":
   version: 1.30.0
   resolution: "prismjs@npm:1.30.0"
   checksum: 10/6b48a2439a82e5c6882f48ebc1564c3890e16463ba17ac10c3ad4f62d98dea5b5c915b172b63b83023a70ad4f5d7be3e8a60304420db34a161fae69dd4e3e2da
