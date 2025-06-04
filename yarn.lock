@@ -81,23 +81,23 @@ __metadata:
   linkType: hard
 
 "@astrojs/rss@npm:^4.0.0":
-  version: 4.0.11
-  resolution: "@astrojs/rss@npm:4.0.11"
+  version: 4.0.12
+  resolution: "@astrojs/rss@npm:4.0.12"
   dependencies:
-    fast-xml-parser: "npm:^4.5.0"
+    fast-xml-parser: "npm:^5.2.0"
     kleur: "npm:^4.1.5"
-  checksum: 10/703b2dc9657eec1cb4351364e640989570370867a1b795f9cd3e01bf172b7ebb0ee2a79c383223eeb81d846e394d01e8465259eaccd011b6600ef50b0caa9bb1
+  checksum: 10/7a065ff4bc9e5fa95963593b7be9dcd5ff2b549c5aa682dd06589134b7153779324a7b7d5fd041f8cd6eca34187963f6864444feb46da32b013469a7129826c6
   languageName: node
   linkType: hard
 
 "@astrojs/sitemap@npm:^3.0.0":
-  version: 3.4.0
-  resolution: "@astrojs/sitemap@npm:3.4.0"
+  version: 3.4.1
+  resolution: "@astrojs/sitemap@npm:3.4.1"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.24.2"
-  checksum: 10/9706b92c8d52cd4a638fee7031ba3430a70ada67c3a1f78780419826da75ca8e90c3f7b667bf2b05eb9de4c0665dad062ff4ef4f9f42ec4196f355b71f627cba
+  checksum: 10/4ecb80e5b4bc391f34209d731408436d795ed50ce665f9a81b303dadd849b17464db3442372fed213ae8b976715522816f06bfc04bd649bf412e77d9321f5279
   languageName: node
   linkType: hard
 
@@ -2434,14 +2434,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-xml-parser@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "fast-xml-parser@npm:4.5.0"
+"fast-xml-parser@npm:^5.2.0":
+  version: 5.2.3
+  resolution: "fast-xml-parser@npm:5.2.3"
   dependencies:
-    strnum: "npm:^1.0.5"
+    strnum: "npm:^2.1.0"
   bin:
     fxparser: src/cli/cli.js
-  checksum: 10/dc9571c10e7b57b5be54bcd2d92f50c446eb42ea5df347d253e94dd14eb99b5300a6d172e840f151e0721933ca2406165a8d9b316a6d777bf0596dc4fe1df756
+  checksum: 10/8135b518b8e8988b71b0564dccbe69fab8b70432508377e4146de7da2f7f182f5a73c1a764f7e0b8a3a7bfb0ada73cfb31d6bf0a38347acafb770b059a9f83d5
   languageName: node
   linkType: hard
 
@@ -5523,10 +5523,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strnum@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "strnum@npm:1.0.5"
-  checksum: 10/d3117975db8372d4d7b2c07601ed2f65bf21cc48d741f37a8617b76370d228f2ec26336e53791ebc3638264d23ca54e6c241f57f8c69bd4941c63c79440525ca
+"strnum@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "strnum@npm:2.1.1"
+  checksum: 10/d5fe6e4333cddc17569331048e403e876ffcf629989815f0359b0caf05dae9441b7eef3d7dd07427313ac8b3f05a8f60abc1f61efc15f97245dbc24028362bc9
   languageName: node
   linkType: hard
 
