@@ -663,15 +663,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markdoc/markdoc@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@markdoc/markdoc@npm:0.4.0"
+"@markdoc/markdoc@npm:^0.5.0":
+  version: 0.5.4
+  resolution: "@markdoc/markdoc@npm:0.5.4"
   dependencies:
+    "@types/linkify-it": "npm:^3.0.1"
     "@types/markdown-it": "npm:12.2.3"
   peerDependencies:
     "@types/react": "*"
     react: "*"
   dependenciesMeta:
+    "@types/linkify-it":
+      optional: true
     "@types/markdown-it":
       optional: true
   peerDependenciesMeta:
@@ -679,7 +682,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10/e9a1a3c0b8821a134cd5eb2ce60f5e25bcc67eb0cd74e45b3a6c5e3e546d22d6ee04e0d127d95f5885f0ae3f7631935aa1bc1871e248ad309a147cf7dad6259f
+  checksum: 10/97c62e0a32e83954f60a7d4177cb58e4ef446dab8d56680451e1ca754a1acc75e8702032be17747e24ac505503baef151b3d56af6a3d66e781adf217923fa107
   languageName: node
   linkType: hard
 
@@ -1126,6 +1129,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/linkify-it@npm:^3.0.1":
+  version: 3.0.5
+  resolution: "@types/linkify-it@npm:3.0.5"
+  checksum: 10/fac28f41a6e576282300a459d70ea0d33aab70dbb77c3d09582bb0335bb00d862b6de69585792a4d590aae4173fbab0bf28861e2d90ca7b2b1439b52688e9ff6
+  languageName: node
+  linkType: hard
+
 "@types/markdown-it@npm:12.2.3":
   version: 12.2.3
   resolution: "@types/markdown-it@npm:12.2.3"
@@ -1514,7 +1524,7 @@ __metadata:
     "@astrojs/rss": "npm:^4.0.0"
     "@astrojs/sitemap": "npm:^3.0.0"
     "@astrojs/tailwind": "npm:^5.0.0"
-    "@markdoc/markdoc": "npm:^0.4.0"
+    "@markdoc/markdoc": "npm:^0.5.0"
     "@tailwindcss/typography": "npm:^0.5.9"
     astro: "npm:^5.15.6"
     astro-markdoc-renderer: "npm:0.0.1-alpha.1"
