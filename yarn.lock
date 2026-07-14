@@ -72,24 +72,24 @@ __metadata:
   linkType: hard
 
 "@astrojs/rss@npm:^4.0.0":
-  version: 4.0.18
-  resolution: "@astrojs/rss@npm:4.0.18"
+  version: 4.0.19
+  resolution: "@astrojs/rss@npm:4.0.19"
   dependencies:
     fast-xml-parser: "npm:^5.5.7"
     piccolore: "npm:^0.1.3"
     zod: "npm:^4.3.6"
-  checksum: 10/6de3dede4165763e9ed6f3d4eaaceac6038c4e1425149a0507d2126d08cf23070cdcba5083eadc1322f663aea396cb21a35734ba526896b48eec5e6daae506fc
+  checksum: 10/e4a95ba424c4f929fc2b958b6933649bd1cdaf21068bffd5a76459405537808b690736fbf7478e205d7758dc6186ee1203fe07277b0859cd7b0c1f2e808bf3f5
   languageName: node
   linkType: hard
 
 "@astrojs/sitemap@npm:^3.0.0":
-  version: 3.7.2
-  resolution: "@astrojs/sitemap@npm:3.7.2"
+  version: 3.7.3
+  resolution: "@astrojs/sitemap@npm:3.7.3"
   dependencies:
     sitemap: "npm:^9.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^4.3.6"
-  checksum: 10/78662df615e4393574f65fa0062dec411557261b004220318685f370ec4449b5e74d67fb970515dccc046db75daa3c7cc58c9c1c69e52f215bc42925d37e9544
+  checksum: 10/e0820d0788abb7808a29ed013b6cd1f021e684d4065b4d92ba78293b8fcec5aec4faf73f8824087d7354010707e9ed16e411ed33ff0ee4dea2e34d5bd1f3df86
   languageName: node
   linkType: hard
 
